@@ -12,7 +12,3 @@ node('master'){
         printMessage('Pipeline completed')
     }
 }
-
-def printMessage(message){
-    echo "${message}"
-}
